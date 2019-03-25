@@ -9,8 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "gifencoder": "^2.0.1",
     "gifwrap": "^0.7.5",
     "jimp": "^0.6.0",
-    "replace-color": "^2.0.0"
+    "png-file-stream": "^1.2.1"
   }
 }
