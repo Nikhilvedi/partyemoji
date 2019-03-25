@@ -4,7 +4,7 @@ var encoder = new GIFEncoder(100, 100);
 var pngFileStream = require('png-file-stream');
 var fs = require('fs');
 
-Jimp.read('mexicanben.png')
+Jimp.read('image.png')
     .then(picture => {
         return picture
             .resize(100,100)
@@ -25,7 +25,7 @@ Jimp.read('mexicanben.png')
         return picture
             .resize(100,100)
             .colour([
-                { apply: 'mix', params: ['#e2ff00', 30] }
+                { apply: 'mix', params: ['#ff000d', 30] }
             ])
             .write('images/output3.png'); // save
     })
